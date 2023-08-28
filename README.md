@@ -3,6 +3,7 @@
 A cache replacement policy is a critical component of caching systems that determines which items are evicted from the cache when it becomes full. Different replacement policies have their own advantages and disadvantages, making them suitable for specific use cases. This README provides an overview of four common cache replacement policies: FIFO, LRU, CLOCK, and LFU. Additionally, it presents implementations of these policies in the Go programming language, along with discussions on their pros and cons.
 
 ## Replacement Policies
+![img.png](media/img.png)
 
 ### 1. FIFO (First-In-First-Out)
 FIFO is a straightforward replacement policy where the first item added to the cache is the first to be evicted when the cache is full. It's based on the principle that the oldest item is the least likely to be used in the near future.
@@ -56,8 +57,5 @@ Before contributing, please read the [code of conduct](CODE_OF_CONDUCT.md) & [co
 
 ## Support
 A simple star to this project repo is enough to keep me motivated on this project for days. If you find your self very much excited with this project let me know with a tweet.
-
-If you have any questions, feel free to reach out to me on [Twitter](https://twitter.com/saurra3h).
-
 ## License
 Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
